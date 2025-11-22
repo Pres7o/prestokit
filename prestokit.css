@@ -309,8 +309,9 @@
 
 @font-face {
   font-family: "jetbrains";
-  src: url("https://prestokit.pages.dev/cdn/jetbrains.woff2") format("woff2"),
-    url("https://prestokit.pages.dev/cdn/jetbrains.woff") format("woff");
+  src: url("https://prestokit.pages.dev/cdn/font/jetbrains.woff2")
+      format("woff2"),
+    url("https://prestokit.pages.dev/cdn/font/jetbrains.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -320,6 +321,19 @@ body {
   padding: 0px;
   margin: 0px;
   padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #98c379;
+}
+
+.main-div {
+  width: 800px;
+  border-radius: 25px;
+  padding: 25px;
+  padding-left: 40px;
 }
 
 .dark-mode {
@@ -332,6 +346,11 @@ body {
   border: none;
 }
 
+.dark-mode hr {
+  border: 0;
+  border-top: 1px solid #abb2bf;
+}
+
 .light-mode {
   color: #383a42;
   background-color: #eaeaea;
@@ -340,23 +359,6 @@ body {
 .light-mode .main-div {
   background-color: #fafafa;
   border: none;
-}
-
-.centered-div {
-  display: flex;
-  justify-content: center;
-}
-
-.main-div {
-  width: 800px;
-  border-radius: 25px;
-  padding: 25px;
-  padding-left: 40px;
-}
-
-.dark-mode hr {
-  border: 0;
-  border-top: 1px solid #abb2bf;
 }
 
 .light-mode hr {
