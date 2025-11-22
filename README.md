@@ -1,6 +1,6 @@
 # PrestoKit
 
-![GitHub Tag](https://img.shields.io/github/v/tag/Pres7o/prestokit?label=Version)
+![GitHub Tag](https://img.shields.io/github/v/tag/Pres7o/prestokit?style=for-the-badge&label=Release) ![GitHub License](https://img.shields.io/github/license/Pres7o/prestokit?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/Pres7o/prestokit?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/Pres7o/prestokit?style=for-the-badge)
 
 A simple CSS toolkit for simple styling.
 
@@ -26,3 +26,5 @@ PrestoKit is a opinionated stylesheet thats builds off [csstools' updated versio
 - [csstools' normalize.css](https://github.com/csstools/normalize.css)
 - [Nicolas Gallagher's normalize.css](https://github.com/necolas/normalize.css)
 - [OneDark Pro Darker](https://github.com/Binaryify/OneDark-Pro/)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- [Nerd Fonts](https://www.nerdfonts.com/)
