@@ -309,7 +309,10 @@
 
 @font-face {
   font-family: "jetbrains";
-  src: url("https://prestokit-cdn.pages.dev/fonts/jetbrains.ttf");
+  src: url("https://prestokit.pages.dev/cdn/jetbrains.woff2") format("woff2"),
+    url("https://prestokit.pages.dev/cdn/jetbrains.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -349,4 +352,14 @@ body {
   border-radius: 25px;
   padding: 25px;
   padding-left: 40px;
+}
+
+.dark-mode hr {
+  border: 0;
+  border-top: 1px solid #abb2bf;
+}
+
+.light-mode hr {
+  border: 0;
+  border-top: 1px solid #383a42;
 }

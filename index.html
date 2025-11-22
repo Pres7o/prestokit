@@ -9,20 +9,7 @@
 
     <link rel="icon" href="/img/favicon.png" />
 
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="https://prestokit-cdn.pages.dev/highlightjs/v11.11.1/styles/onedark.min.css?v=<?php echo time(); ?>"
-    />
-    <script
-      type="text/javascript"
-      src="https://prestokit-cdn.pages.dev/highlightjs/v11.11.1/highlight.min.js?v=<?php echo time(); ?>"
-    ></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        hljs.highlightAll();
-      });
-    </script>
+    <script src="prestokit.js?v=<?=time()?>"></script>
 
     <link rel="stylesheet" type="text/css" href="/prestokit.css" />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -30,6 +17,7 @@
   <body class="centered-div dark-mode">
     <div class="main-div">
       <h1>Template!</h1>
+      <hr>
       <p>This website is a template</p>
       <p>code blocks:</p>
       <pre><code class="language-python">def fib(n):
@@ -41,6 +29,5 @@
 fib(1000)</code></pre>
     </div>
 
-    <script src="/js/app.js"></script>
   </body>
 </html>
