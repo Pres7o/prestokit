@@ -2,7 +2,7 @@
 
 A simple CSS toolkit for simple styling.
 
-PrestoKit is a opinionated stylesheet thats built off [csstools' updated version](https://github.com/csstools/normalize.css) of [normalize.css](https://github.com/necolas/normalize.css), made by [Nicolas Gallagher](https://github.com/necolas/).
+PrestoKit is a opinionated stylesheet thats builds off [csstools' updated version](https://github.com/csstools/normalize.css) of [normalize.css](https://github.com/necolas/normalize.css), the original was made by [Nicolas Gallagher](https://github.com/necolas/).
 
 Features:
 
