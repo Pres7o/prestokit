@@ -308,7 +308,7 @@
  */
 
 @font-face {
-  font-family: "jetbrains";
+  font-family: "JetBrains Mono";
   src: url("https://prestokit.pages.dev/cdn/font/jetbrains.woff2")
       format("woff2"),
     url("https://prestokit.pages.dev/cdn/font/jetbrains.woff") format("woff");
@@ -317,7 +317,7 @@
 }
 
 body {
-  font-family: jetbrains;
+  font-family: "JetBrains Mono", Courier, monospace;
   padding: 0px;
   margin: 0px;
   padding-top: 15px;
@@ -325,8 +325,15 @@ body {
   justify-content: center;
 }
 
-a {
-  color: #98c379;
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+}
+
+h2,
+h3 {
+  margin-top: 30px;
 }
 
 .main-div {
@@ -336,32 +343,42 @@ a {
   padding-left: 40px;
 }
 
-.dark-mode {
+.dark {
   color: #abb2bf;
   background-color: #1d2227;
+  scrollbar-color: #abb2bf #16191d;
 }
 
-.dark-mode .main-div {
+.dark .main-div {
   background-color: #16191d;
   border: none;
 }
 
-.dark-mode hr {
+.dark hr {
   border: 0;
   border-top: 1px solid #abb2bf;
 }
 
-.light-mode {
-  color: #383a42;
-  background-color: #eaeaea;
+.dark a {
+  color: #98c379;
 }
 
-.light-mode .main-div {
+.light {
+  color: #383a42;
+  background-color: #eaeaea;
+  scrollbar-color: #383a42 #fafafa;
+}
+
+.light .main-div {
   background-color: #fafafa;
   border: none;
 }
 
-.light-mode hr {
+.light hr {
   border: 0;
   border-top: 1px solid #383a42;
+}
+
+.light a {
+  color: #50a14f;
 }
