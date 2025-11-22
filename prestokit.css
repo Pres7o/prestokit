@@ -309,7 +309,7 @@
 
 @font-face {
   font-family: "jetbrains";
-  src: url("https://prestokit-cdn.pages.dev/fonts/jetbrains.ttf?v=<?php echo time(); ?>");
+  src: url("https://prestokit-cdn.pages.dev/fonts/jetbrains.ttf");
 }
 
 body {
