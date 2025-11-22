@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hello, world!</title>
+    <title>Template</title>
     <meta name="description" content=""/>
 
     <meta charset="UTF-8"/>
@@ -10,12 +10,27 @@
 
     <link rel="icon" href="/img/favicon.png">
     
-    <link rel="stylesheet" type="text/css" href="/css/modern-normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="https://prestokit-cdn.pages.dev/highlightjs/v11.11.1/styles/onedark.min.css?v=<?php echo time(); ?>"/>
+    <script type="text/javascript" src="https://prestokit-cdn.pages.dev/highlightjs/v11.11.1/highlight.min.js?v=<?php echo time(); ?>"></script>
+    <script>document.addEventListener("DOMContentLoaded",()=>{hljs.highlightAll();});</script>
+    
+    <link rel="stylesheet" type="text/css" href="/prestokit.css"/>
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 </head>
-<body>
-    <h1>Hello, world!</h1>
+<body class="centered-div dark-mode">
+    <div class="main-div">
+        <h1>Template!</h1>
+        <p>This website is a template</p>
+        <p>code blocks:</p>
+        <pre><code class="language-python">def fib(n):
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+    print()
+fib(1000)</code></pre>
+    </div>
 
-    <script src="app.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
